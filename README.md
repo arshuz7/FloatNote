@@ -27,16 +27,6 @@ It also does **line-by-line copying**: press a hotkey from any app and the next 
 
 ## Install
 
-### Download
-
-Grab `FloatNote.zip` from the [latest release](../../releases/latest), unzip it, and move `FloatNote.app` to Applications.
-
-The app isn't notarized by Apple, so the first launch is blocked. Either right-click the app → **Open** → **Open**, or run:
-
-```sh
-xattr -dr com.apple.quarantine /Applications/FloatNote.app
-```
-
 ### Build from source
 
 Requires macOS 11+ and the Xcode Command Line Tools (`xcode-select --install`).
