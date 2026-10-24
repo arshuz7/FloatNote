@@ -42,7 +42,7 @@ xattr -dr com.apple.quarantine /Applications/FloatNote.app
 Requires macOS 11+ and the Xcode Command Line Tools (`xcode-select --install`).
 
 ```sh
-git clone https://github.com/<your-username>/FloatNote.git
+git clone https://github.com/arshuz7/FloatNote.git
 cd FloatNote
 ./build.sh && open FloatNote.app
 ```
